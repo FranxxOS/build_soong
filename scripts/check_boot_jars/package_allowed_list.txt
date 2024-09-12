@@ -259,6 +259,10 @@ com\.google\.i18n\.phonenumbers
 org\.chromium\.arc
 org\.chromium\.arc\..*
 
+# FranxxOS adds
+org\.franxx
+org\.franxx.*
+
 # QC adds
 com.qualcomm.qti
 com.quicinc.tcmiface
