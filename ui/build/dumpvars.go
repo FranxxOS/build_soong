@@ -148,7 +148,9 @@ var BannerVars = []string{
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
 	"PRODUCT_SOURCE_ROOT_DIRS",
-        "FRANXX_VERSION"
+        "FRANXX_VERSION",
+        "BUILD_USERNAME",
+        "BUILD_HOSTNAME",
 	"TARGET_PRODUCT",
 	"TARGET_BUILD_VARIANT",
 	"TARGET_BUILD_APPS",
@@ -160,11 +162,8 @@ var BannerVars = []string{
 	"TARGET_2ND_ARCH_VARIANT",
 	"TARGET_2ND_CPU_VARIANT",
 	"HOST_OS",
-	"HOST_OS_EXTRA",
-	"HOST_CROSS_OS",
 	"BUILD_ID",
 	"OUT_DIR",
-	"SOONG_SDK_SNAPSHOT_TARGET_BUILD_RELEASE",
 }
 
 func Banner(make_vars map[string]string) string {
